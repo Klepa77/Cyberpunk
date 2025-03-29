@@ -1,3 +1,15 @@
+
+@font-face {
+	font-family: "Archangelsk";
+	src: 
+	  url("../fonts/archangelsk.woff2") format("woff2"),
+	  url("../fonts/archangelsk.woff") format("woff");
+	  font-family: 'Archangelsk';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 62px;
+	  line-height: 63px;
+  }
 * {
 	margin: 0;
 	padding: 0;
@@ -10,6 +22,7 @@
 	position: relative;
 }
 body {
+	font-family: "Archangelsk", sans-serif;
 	background: url(../Images/11.jpg);
 	background-repeat: no-repeat;
 }
@@ -29,3 +42,50 @@ body {
 	bottom: 0;
 	right: 0;
 }
+
+.content-rectangle{
+	position: relative;
+	margin: auto 70px;
+	
+	
+}
+
+
+.content-text{
+	position: absolute;
+	bottom: 173px;
+	left: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 35px;
+	width: 484px;
+	height: 125px;
+}
+
+
+.rectangle-text{
+	font-size: 44px;
+	letter-spacing: 2px;
+
+}
+
+  
+.btn{
+	width:272px ;
+	height: 78px;
+	background: #000000;
+	text-decoration: none;
+	text-align: center;
+	margin: auto 15px;
+	border: none;
+	color: #F8F200;
+	padding: 25px 25px; 
+}	
+
+
+
+	
+
+	
+
